@@ -3,13 +3,11 @@
 * {
     /* border: solid red 1px; */
     /* Useful trick to see all CSS boxes */
-    background-color: #3865fc;
-    color: whitesmoke;
+    /* background-color: #3865fc;
+    color: whitesmoke; */
 }
 
 header {
-    display: flex;
-    flex-direction: column;
     padding: 15px;
     text-align: center;
     font-size:x-large;
@@ -43,14 +41,19 @@ header {
 /* Tablet Second */
 
 @media only screen and (min-width: 600px) {
-
+    body {
+        background-color: yellow;
+    }
 }
 
 /* Desktop Last */
 
 @media only screen and (min-width: 800px) {
-
-    h1 {
-        color: green;
+    body {
+        background-color: green;
+    }
+    header {
+        background-color: skyblue;
+        color: teal;
     }
 }
