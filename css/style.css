@@ -50,7 +50,7 @@ header {
 
 @media only screen and (min-width: 800px) {
     body {
-        background-color: green;
+        background-color: cornflowerblue;
     }
     header {
         background-color: skyblue;
